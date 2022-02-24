@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="expense.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <form>
+        <h1>Expence Tracker</h1>
+        <p>Add a New Item</p>
+
+        <div class="container">
+          <label>Name:</label>
+          <input
+            class="name-input"
+            id="name"
+            type="text"
+            placeholder="where was the expense made?"
+          ><br>
+            <!-- </div>
+            <div class="container1"> -->
+          <label>Date:</label>
+          <input id="datevalue" type="date" placeholder="mm/dd/yy">
+
+          <label>Amount:</label>
+          <input id="amt" type="number" placeholder="enter amount" ><br>
+          
+        </div>
+        <button id="add-btn" type="button">Add Expense
+        
+          </button>
+          <table id="display" >
+              <tr id="r">
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th id="action" >Action 
+                 
+                </th> 
+          
+              </tr>
+              </table>
+             
+        <ul id="ul-el">
+            
+        </ul>
+      </form>
+
+      <script src="expense.js" ></script>
+      
+
+      
+  </body>
+</html>
